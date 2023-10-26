@@ -4,7 +4,7 @@
   "description": "ResourceMod Registry API Specification",
   "scripts": {
     "registry.generate": "npx @airtasker/spot generate --contract registry.ts -g openapi3 -l yaml -o openapi",
-    "registry.preview": "npx @airtasker/spot docs api.ts"
+    "registry.preview": "npx @airtasker/spot docs registry.ts"
   },
   "author": "",
   "license": "ISC",
