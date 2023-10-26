@@ -1,0 +1,15 @@
+{
+  "name": "resourcemod-api-spec",
+  "version": "1.0.0",
+  "description": "ResourceMod Registry API Specification",
+  "scripts": {
+    "registry.generate": "npx @airtasker/spot generate --contract registry.ts -g openapi3 -l yaml -o openapi",
+    "registry.preview": "npx @airtasker/spot docs api.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@airtasker/spot": "^1.12.0",
+    "yarn": "^1.22.19"
+  }
+}
